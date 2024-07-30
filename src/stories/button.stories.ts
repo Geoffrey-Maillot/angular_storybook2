@@ -46,34 +46,3 @@ export const Small: Story = {
     label: 'Button',
   },
 };
-
-export const FullWidth: Story = {
-  args: {
-    primary: true,
-    label: 'Full width button',
-  },
-};
-
-export const ButtonIcon: Story = {
-  args: {
-    primary: true,
-    buttonIcon: 'sentiment_satisfied',
-    size: 'large',
-  },
-};
-
-export const IconRight: Story = {
-  args: {
-    primary: true,
-    label: 'Icon right',
-    iconRight: 'arrow_forward',
-  },
-};
-
-export const IconLeft: Story = {
-  args: {
-    primary: true,
-    label: 'Icon right',
-    iconLeft: 'arrow_backward',
-  },
-};

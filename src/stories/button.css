@@ -6,29 +6,7 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
 }
-
-.storybook-button--fullwidth {
-  width: 100%;
-}
-
-.storybook-button--loading {
-  animation: rotate 2s 0s both infinite ease-out;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(1turn);
-  }
-}
-
 .storybook-button--primary {
   color: white;
   background-color: #1ea7fd;
@@ -49,18 +27,4 @@
 .storybook-button--large {
   font-size: 16px;
   padding: 12px 24px;
-}
-
-.storybook-button--icon {
-  border-radius: 50%;
-}
-
-.storybook-button--icon.storybook-button--small {
-  padding: 10px 10px;
-}
-.storybook-button--icon.storybook-button--medium {
-  padding: 12px 12px;
-}
-.storybook-button--icon.storybook-button--large {
-  padding: 16px 16px;
 }
