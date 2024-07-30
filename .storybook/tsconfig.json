@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
+  "include": [
+    "../src/**/*.stories.*",
+    "./preview.ts",
+    "../src/app/component/exemple/dashboard/components/user-card/user-card.temp.tsx",
+    "../src/app/component/exemple/dashboard/layout/dashboard/dashboard.temp.tsx",
+    "../src/app/component/exemple/dashboard/components/dashboard-card/dashboard-card.stories.ts"
+  ],
+  "files": ["./typings.d.ts"]
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+@import './base/_reset.scss';
+@import './base/_general.scss';
+@import './base/_utilities.scss';
+@import './base/_typography.scss';
+
+@import './abstracts/_functions.scss';
+@import './abstracts/_variables.scss';
+@import './abstracts/_mixin.scss';
+
+.dashboard .wrap-grid {
+  display: grid;
+  gap: rem(16px);
+  grid-template-columns: 1fr;
+  width: 92vw;
+
+  @include mq('lg') {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 240px);
+    width: auto;
+    :nth-child(1) {
+      grid-row: 1/3;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixin';
+@import '../abstracts//functions';
+
+p {
+  @include text-sizes('lg');
+  color: #fff;
+}
+
+a {
+  color: $desaturatedBlue;
+
+  &:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &.active {
+    color: #fff;
+  }
+}

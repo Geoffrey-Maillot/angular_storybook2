@@ -1,0 +1,40 @@
+@import '../../../../../styles.scss';
+
+.card {
+  border: 1px solid $primary-light;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+
+  > div:first-child {
+    flex-grow: 2;
+
+    .info {
+      display: flex;
+      gap: 8px;
+      > div {
+        align-self: center;
+        .progression {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .result {
+          text-align: center;
+          font-weight: bold !important;
+        }
+      }
+      .result-ca {
+        text-align: center;
+      }
+    }
+  }
+
+  > div:last-child {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

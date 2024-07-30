@@ -1,0 +1,81 @@
+$primary: #2b394f;
+$primary-light: #a0a6b2;
+$danger: #ffcccc;
+$danger-accent: #d45e5e;
+$warn: #f4dbaf;
+$warn-accent: #e3a438;
+$success: #c5e2be;
+$success-accent: #88c378;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* ----------
+    TEXT
+ ------------ */
+p {
+  margin-block: 2px !important;
+  &.bold-weight {
+    font-weight: bold !important;
+  }
+}
+.text {
+  &-danger {
+    color: $danger;
+    &-accent {
+      color: $danger-accent;
+    }
+  }
+  &-success {
+    color: $success;
+    &-accent {
+      color: $success-accent;
+    }
+  }
+
+  &-warn {
+    color: $warn;
+
+    &-accent {
+      color: $warn-accent;
+    }
+  }
+  &-primary {
+    color: $primary;
+  }
+}
+
+/* ----------
+    Background
+ ------------ */
+.bg {
+  &-danger {
+    background-color: $danger;
+    &-accent {
+      background-color: $danger-accent;
+    }
+  }
+  &-success {
+    background-color: $success;
+    &-accent {
+      background-color: $success-accent;
+    }
+  }
+
+  &-warn {
+    background-color: $warn;
+
+    &-accent {
+      background-color: $warn-accent;
+    }
+  }
+  &-primary {
+    background-color: $primary;
+  }
+}

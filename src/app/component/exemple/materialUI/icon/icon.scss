@@ -1,0 +1,78 @@
+@import '../../../../../styles.scss';
+
+/* ----------
+    Icon
+ ------------ */
+.icon {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-xs {
+    width: 16px;
+    height: 16px;
+    .mat-icon {
+      width: 10px;
+      height: 10px;
+      font-size: 10px;
+    }
+  }
+  &-m {
+    width: 24px;
+    height: 24px;
+    .mat-icon {
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+    }
+  }
+  &-ml {
+    width: 32px;
+    height: 32px;
+    .mat-icon {
+      width: 24pxpx;
+      height: 24pxpx;
+      font-size: 24pxpx;
+    }
+  }
+  &-xl {
+    width: 40px;
+    height: 40px;
+    .mat-icon {
+      width: 32px;
+      height: 32px;
+      font-size: 32px;
+    }
+  }
+
+  &-danger {
+    background-color: $danger;
+    .mat-icon {
+      color: $danger-accent;
+    }
+  }
+  &-success {
+    background-color: $success;
+    .mat-icon {
+      color: $success-accent;
+    }
+  }
+
+  &-warn {
+    background-color: $warn;
+    .mat-icon {
+      color: $warn-accent;
+    }
+  }
+  &-primary {
+    background-color: $primary-light;
+    .mat-icon {
+      color: $primary;
+    }
+  }
+
+  &-transparent {
+    background-color: transparent;
+  }
+}
